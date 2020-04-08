@@ -1,0 +1,3 @@
+When project manager pops up click import and choose the project.godot file in this file
+then when loaded Click Assets in the files and choose scenes and click test
+everything will have a description on how to use it

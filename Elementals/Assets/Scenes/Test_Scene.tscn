@@ -1,0 +1,29 @@
+[gd_scene format=2]
+
+[node name="Main Node" type="Node2D"]
+__meta__ = {
+"_editor_description_": "Eveything is under this node"
+}
+
+[node name="Enviorment" type="Node" parent="."]
+__meta__ = {
+"_editor_description_": "This is for enviromental objects such as backgrounds trees ect...
+"
+}
+
+[node name="Background" type="Node" parent="Enviorment"]
+__meta__ = {
+"_editor_description_": "This is for background artwork"
+}
+
+[node name="Sprite" type="Sprite" parent="Enviorment/Background"]
+__meta__ = {
+"_editor_description_": "drag your image ect in texture"
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 508.851, 300.62 )
+current = true
+__meta__ = {
+"_editor_description_": "Child this to the player when you add movement mechanic. make sure current is on to capture with this camera"
+}
